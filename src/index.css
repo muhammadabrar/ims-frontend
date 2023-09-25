@@ -1,0 +1,426 @@
+:root{
+  font-size: 10px;
+  /* overflow-x: hidden; */
+}
+body{
+  overflow-x: hidden;
+}
+.link {
+  text-decoration: none;
+}
+.btn{
+  font-size: 1.2rem;
+}
+.header{
+  /* width: 100vh; */
+  height: 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5rem;
+  position: relative;
+}
+.search-bar{
+  display: flex;
+
+}
+
+.nav{
+  display: flex;
+  /* width: 26rem; */
+  height: 100%;
+}
+.nav--bar{
+  width: 22rem;
+  margin-right: 2rem;
+}
+.nav-item{
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.6rem;
+  padding: 0 1rem;
+  width: 6rem;
+
+}
+.nav-item:hover, .nav-item.active{
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.search-input{
+  width: 35rem;
+  height: 3.5rem;
+  outline: none;
+  border: none;
+  padding: 0 2rem;
+  font-size: 1.6rem;
+
+}
+.card-search-input{
+  outline: none;
+  border: none;
+
+  height: 3rem;
+}
+
+.search-btn{
+  outline: none;
+  border: none;
+  background-color: #F0F0F0;
+  padding: 0 1rem;
+}
+.search-cat{
+  outline: none;
+  border: none;
+  background-color: #F0F0F0;
+  font-size: 1.6rem;
+  vertical-align: middle;
+  width: 10rem;
+  line-height: 35px;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+
+}
+.search-cat:hover, .search-btn:hover{
+  background-color: #E5E5E5;
+  
+}
+.input-group-text{
+  font-size: 1.6rem;
+  height: 3rem;
+}
+
+.form-control{
+  font-size: 1.4rem;
+  height: 3rem;
+
+}
+.date-input{
+  width: 18rem;
+  font-size: 2rem;
+  border: none;
+  outline: none;
+}
+.date-input:focus{
+  border: none;
+}
+
+.states{
+  margin: 2rem;
+  /* box-shadow: rgba(0, 0, 0, 0.153) 0px 4px 8px; */
+  padding: 1rem;
+  border-radius: 1rem;
+  width: auto;
+}
+/* [type="date"] {
+  background:#fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_1.png)  98% 50% no-repeat ;
+}
+[type="date"]::-webkit-inner-spin-button {
+  display: none;
+}
+[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+} */
+
+.Top-states{
+  /* border-bottom: #E5E5E5 1px solid; */
+  /* display: flex; */
+}
+
+.revenue{
+  /* width: 70%; */
+  border-right: #E5E5E5 1px solid;
+
+}
+
+.sec-states .states-item{
+  /* height: 50%; */
+  border-right: #E5E5E5 1px solid;
+  width: 33.3%;
+  padding: 1rem;
+}
+.sec-states .states-item:last-child{
+  /* height: 50%; */
+  border-right: none;
+
+}
+
+.custom-tooltip{
+  background-color: #fff;
+  opacity: .5;
+}
+
+
+.wrap{
+  margin: 2rem;
+  
+}
+.orders {
+  margin-right: 1rem;
+}
+
+.item-wrap{
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: #121212;
+  height: 8rem;
+
+
+}
+.item:hover{
+  background-color: #E5E5E5;
+}
+.breadcrumb{
+  font-size: 1.2rem;
+  background-color: #E5E5E5;
+  padding: 1rem;
+  margin: 2rem;
+}
+
+.invoice-card{
+  width: 18cm;
+  /* height: 21cm; */
+
+}
+.meta{
+  /* width: 30rem; */
+  display: flex;
+  /* justify-content: space-between; */
+  font-size: 1.6rem;
+}
+.meta-title{
+  margin-right: 2rem;
+  font-weight: bold;
+}
+
+.invoice-card{
+  font-size: 1.6rem;
+}
+.item-wrap{
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: #121212;
+  height: 8rem;
+}
+.order-item{
+  font-size: 1.6rem;
+  margin: 1rem 0;
+}
+.order-item-wrap{
+  width: 15cm;
+}
+
+.sr{
+  width: 1cm;
+  font-size: 1.6rem;
+}
+.product-title{
+  width: 100%;
+  font-size: 1.6rem;
+  /* background-color: #121212; */
+}
+.product-amount{
+  width: 4cm;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: flex-end;
+  font-size: 1.4rem;
+  /* background-color: #121212; */
+
+}
+
+.cart-product-amount{
+  width: 2cm;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: flex-end;
+  font-size: 1.2rem;
+  /* background-color: #121212; */
+
+}
+.product-actions{
+  /* width: 20rem; */
+  margin-left: 2rem;
+}
+.qty{
+  width: 2rem;
+}
+
+.just-icon-btn{
+  font-size: 3.2rem;
+}
+
+.counter {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.counter input {
+  width: 2.5rem;
+  border: 0;
+  /* line-height: 2rem; */
+  font-size: 1.2rem;
+  text-align: center;
+  color: #000000;
+  appearance: none;
+  outline: 0;
+}
+.counter span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  width: 1.5rem;
+  height: 2rem;
+  cursor: pointer;
+  color: #000000;
+  background: #E5E5E5;
+}
+
+.price-input {
+  /* width: 2.5rem; */
+  border: 0;
+  line-height: 1rem;
+  color: #E5E5E5;
+  padding: 0;
+  padding-bottom: 1.1rem;
+  /* font-size: 1.2rem; */
+  /* text-align: center; */
+  color: #000000;
+  appearance: none;
+  outline: 0;
+  margin: 0;
+}
+
+.price-table{
+  width: 20rem;
+  font-size: 1.6rem;
+}
+
+.pay-item-wrap{
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.payment-title{
+  width: 30rem;
+}
+
+
+.form{
+  font-size: 1.6rem;
+}
+.form-group{
+  margin: 1rem 0;
+}
+.ml-2{
+  margin-left: 2rem;
+}
+
+.product-actions{
+  width: 11rem;
+}
+
+.dropdown-menu{
+  display: block;
+  top: 2.8rem;
+}
+.overlay{
+  /* background-color: #0000006d; */
+  width: 100vh;
+  /* height: 100vh; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+.drop-menu{
+  position: absolute;
+  font-size: 1.2rem;
+  /* border: #E5E5E5 1px solid; */
+  border-radius: .5rem;
+  width: 11rem;
+  top: 3rem;
+  margin-top: .2rem;
+  z-index: 3;
+
+
+}
+.list-group-item{
+  /* background-color: #E5E5E5; */
+  cursor: pointer;
+}
+
+.success{
+  /* width: 35rem; */
+  height: 40rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.alert{
+  font-size: 1.6rem;
+}
+
+
+.payment-input{
+  width: 8rem;
+  text-align: end;
+  margin: 0;
+  padding: 0;
+  border: none;
+  
+}
+.customers{
+  font-size: 1.6rem;
+}
+.pay-input{
+  width: 25rem !important;
+}
+
+
+
+
+.qr{
+  position: relative;
+  /* height: 220px; width: 220px; */
+  /* padding: 10px; */
+  background: #fff;
+  cursor: pointer;
+}
+.qroverlay{
+  display: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.578);
+  color: #fff;
+  padding: 1rem;
+  z-index: 2;
+  place-items: center;
+}
+.qr:hover .qroverlay{
+  display: grid;
+}
+.qrLogo{
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  /* object-position: center; */
+  border-radius: 50%;
+  padding: 5px;
+  background-color: #fff;
+
+}
